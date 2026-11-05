@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-royal-purple: #281448;
+    --color-purple-dark: #1A0D30;
+    --color-purple-light: #3D226B;
+    --color-warm-ivory: #F8F4E9;
+    --color-ivory-light: #FDFBF7;
+    --color-champagne-gold: #EDE1BE;
+    --color-gold-accent: #C5A059;
+    --color-gold-deep: #A07830;
+    --color-dark-text: #242124;
+    --color-muted-text: #6A656B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #242124;
+    background-color: #FDFBF7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom utility classes */
+.bg-royal-purple {
+  background-color: #281448;
+}
+
+.text-royal-purple {
+  color: #281448;
+}
+
+.border-royal-purple {
+  border-color: #281448;
+}
+
+.bg-warm-ivory {
+  background-color: #F8F4E9;
+}
+
+.bg-ivory-soft {
+  background-color: #FDFBF7;
+}
+
+.text-dark-charcoal {
+  color: #242124;
+}
+
+.bg-champagne {
+  background-color: #EDE1BE;
+}
+
+.border-champagne {
+  border-color: #EDE1BE;
+}
+
+.text-gold-accent {
+  color: #C5A059;
+}
+
+.border-gold-accent {
+  border-color: #C5A059;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F4E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #281448;
+}

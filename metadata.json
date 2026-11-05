@@ -1,0 +1,6 @@
+{
+  "name": "Surti Jewels",
+  "description": "Premium jewellery brand website offering handcrafted rings, necklaces, bangles, earrings, and bespoke custom jewellery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
